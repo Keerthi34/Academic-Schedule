@@ -1,0 +1,19 @@
+Academics:
+  1)post:/addAcademicSchedule
+  2)get all records:/fetchAcademicSchedule
+  3)get schedule of a particular school:/getAcademicSchedule/:School_Id
+  4)get schedule of a particular class:/getClassSchedule/:School_Id/:Class_Id
+  5)get schedule of a particular subject:/getSubjectSchedule/:School_Id/:Class_Id/:Subject
+  
+Not clear with term fetching deleting and updating
+
+  6)get schedule of a particular term:/getTermSchedule/:School_Id/:Class_Id/:Term
+  7)delete a particular term:/deleteTerm/:School_Id/:Class_Id/:Term
+  8)Update a particular term:/updateTerm/:School_Id/:Class_Id/:Term
+
+Events:
+  1)Add events:/addEvent
+  2)get all events:/fetchEvents
+  3)get type of an event:/getEvent/:School_Id/:Event_Type
+  4)update holidays:/updateHolidays/:School_Id/:Event_Type
+  5)delete holidays:/deleteHoliday/:School_Id/:Event_Type
